@@ -77,9 +77,9 @@
   const checker = function(event){
   if (event.target.className == "super_element"){
     console.log(`Класс "super_element" присутствует в этом ${event.target.tagName.toLowerCase()}`)
-  } else {
+   } else {
     console.log(`В ${event.target.tagName.toLowerCase()} нет нужного класса`)
-  }
+   }
   };
   document.addEventListener('click', () => checker(event));
 
@@ -117,8 +117,7 @@
   /*
   7. С помощью JS необходимо изменить цвет заднего фона каждого второго тега li.
    */
-  const liEl7 = document.querySelectorAll('li:nth-child(2n)')
-  console.log(liEl7)
+  const liEl7 = document.querySelectorAll('li:nth-child(2n)');
   liEl7.forEach(styleChng => {styleChng.style.backgroundColor = 'red'});
 </script>
 </body>
