@@ -1,0 +1,13 @@
+arr=[2, 5, 13, 7, 6, 4]
+size=arr.length //имена переменных использованы из задания. 
+index=0
+sum=0
+avg=0
+//console.log(size) для наглядности хода вычислений
+for (;index < size;index++){
+   // console.log(sum) для наглядности хода вычислений
+  sum = sum+arr[index]
+}
+//console.log(sum) для наглядности хода вычислений
+avg=sum/size
+console.log(avg) // Console.log можно заменить на Print или Output в рамках псевдок
